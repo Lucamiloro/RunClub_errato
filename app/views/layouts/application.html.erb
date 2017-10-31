@@ -13,11 +13,16 @@
   
   <%= render "layouts/header" %>
 
-  <%= yield %>
+  <main>
+    <%= yield %>
+  </main>
+
+  <%= render "layouts/footer" %>
   
   </body>
 
     <script>
       $(".button-collapse").sideNav();
     </script>
+
 </html>
